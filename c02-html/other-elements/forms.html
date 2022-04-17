@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<head lang="pt-BR">
+  <meta charset="utf-8" />
+  <title>Example form</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+  <form>
+    <p>
+      <label for="itext">Text field</label>
+      <input name="itext" id="itext" type="text" />
+    </p>
+    <p>
+      <label for="itext2">Read-only field</label>
+      <input readonly name="itext2" id="itext2" value="Not editable" />
+    </p>
+    <p>
+      <label for="itext3">Disabled field: </label>
+      <input disabled name="itext3" id="itext3" value="Disabled" />
+    </p>
+    <p>
+      <label for="inum">Numeric field</label>
+      <input id="inum" type="date" />
+    </p>
+    <p>
+      <label for="idate">Date field:</label>
+      <input id="idate" type="date" />
+    </p>
+    <p>
+      <label for="ifile">File field:</label>
+      <input id="ifile" type="file" />
+    </p>
+    <p>
+      <label for="ipassw">Password field</label>
+      <input id="ipassw" type="password" />
+    </p>
+    <p>
+      Choose all the fruits you like:<br />
+      <label><input name="icheck" type="checkbox" value="1" />Banana</label>
+      <label><input name="icheck" type="checkbox" value="2" />Orange</label>
+      <label><input name="icheck" type="checkbox" value="3" />Apple</label>
+      <label><input name="icheck" type="checkbox" value="4" />Grape</label>
+    </p>
+
+    <p>
+      Simple selection
+      <select name="select">
+      <option value="value1">Value 1</option>
+      <option value="value2" selected>Value 2</option>
+      <option value="value3">Value 3</option>
+      </select>
+    </p>
+
+    <p>
+      Multiple selection
+      <select name="select" multiple>
+        <option value="value1">Value 1</option>
+        <option value="value2" selected>Value 2</option>
+        <option value="value3">Value 3</option>
+      </select>
+    </p>
+
+    <p>
+      <label for="tarea">Text area:</label>
+      <textarea
+        id="tarea"
+        name="tarea"
+        rows="6"
+        placeholder="Enter here"
+      ></textarea>  
+    </p>
+
+    <p>
+      <input type="submit" value="Submit form" >/
+    </p>
+  </form>
+</body>
