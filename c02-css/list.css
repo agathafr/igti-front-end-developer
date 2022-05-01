@@ -2,3 +2,7 @@ html {
   font-size: 18px;
   font-family: Arial;
 }
+
+ul.beautifulList > li {
+  list-style: none;
+}
