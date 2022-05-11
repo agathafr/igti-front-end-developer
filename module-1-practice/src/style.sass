@@ -1,0 +1,87 @@
+
+  //template da aplicação
+  $color-white: white
+
+
+.body
+  margin: 0
+  background-color: rgb(252, 255, 214)
+
+.header 
+  background-color: rgb(207, 43, 43) 
+  padding: 10px 0
+
+  .nav
+    max-width: 1140px
+    margin: 0 auto
+    display: flex
+    flex-flow: row nowrap
+    justify-content: space-evenly
+
+    .nav__link, .nav__link:link, .nav__link:visited, .nav__link:active
+      color: white
+      text-decoration: none
+
+.main
+  max-width: 1140px
+  margin: 0 auto
+
+  .main__titulo
+    text-align: center
+  
+  .origem-bolo
+    display: flex 
+    flex-flow: row nowrap
+    margin-bottom: 10px
+
+    .origem-bolo__img
+      max-width: 300px
+
+      .origem-bolo__cnt
+        background-color: $color-white
+        padding: 30px
+
+    .citacao
+      color: $color-white
+      background-color: rgb(128, 0, 0)
+      text-align: center
+      padding: 10px
+
+    .receitas
+      display: flex 
+      flex-flow: row nowrap
+      justify-content: space-between
+
+      .bolo-chocolate__cnt
+        display: flex 
+        flex-flow: row nowrap
+        max-width: 800px
+
+          .bolo-chocolate__img
+            max-width: 400px
+            height: 300px
+
+      .bolo-relacionados
+        background-color: $color-white
+        padding: 20px
+
+  .contato-form
+    margin-bottom: 10px
+
+      .contato-form__titulo
+        text-align: center
+
+.footer
+  background-color: #3e3e3e
+
+  .footer__cnt
+    max-width: 1140px
+    margin: 0 auto
+
+  .footer__redes-sociais
+    display: flex
+    flex-flow: row nowrap
+    justify-content: space-between
+
+    .footer__logos
+      max-width: 50px
